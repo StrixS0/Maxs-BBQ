@@ -40,7 +40,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	
-	padding: 28px 12%;
+	padding: 25px 12%;
 	transition: all .50s ease;
 }
 .logo{
@@ -125,7 +125,7 @@ video
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5) );
+	
 	transition: 0.5s;
 	box-shadow: #060606 10px 10px 10px;
 }
@@ -154,7 +154,7 @@ video
 	z-index: 998;
 	font-family: 'CreamCake', cursive;
     font-weight: 400;
-	color: rgb(255, 73, 41);
+	color: rgb(229, 73, 0);
 	 
 }
 .disclaimer
@@ -202,21 +202,35 @@ video
 
 	filter: drop-shadow();
 	display: flex;
-	
+	background-color: rgb(242, 240, 220);
 	z-index: 99;
 	align-items: center;
 	justify-content: center;
 	
 }
+
+.conocenos-content
+{
+	background-color: rgb(246, 246, 246);
+	width: 80%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	
+	
+}
 .conocenos-title
 {
-	font-size: 5rem;
+	font-size: 6rem;
 	padding-top: 50px;
 	letter-spacing: 1px;
 	line-height: 1.5;
 	z-index: 998;
 	font-weight: 400;
-	color: rgb(255, 128, 55);
+	color: rgb(229, 73, 0);
+	font-family: 'CreamCake', cursive;
 	 
 
 	display: flex;
@@ -225,23 +239,28 @@ video
 }
 .conocenos-description
 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	padding-top: 50px;
-	
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	line-height: 1.3;
 	z-index: 998;
 	font-weight: 400;
-	color: rgb(255, 255, 255);
+	text-align: justify;
+	color: rgb(0, 0, 0);
 	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 20px;
+	padding-right:10px ;
 }
 .restaurant-img
 {
 	width: 30%;
-	padding: 10px;
-	border-radius: 20px;
-	margin-left: 35%; 
-	box-shadow: #060606 10px 10px 19px ;
+	
+	margin-bottom: 30px;
+
+	margin-left: 30px;
+	margin-right:7%;
+	
+	float: right;
 }
 .quote
 {
@@ -264,17 +283,7 @@ video
 	color: #fff;
 	font-family: 'CreamCake', cursive;
 }
-.ribs
-{
-	width: 400px;
-}
 
-.rib-div
-{
-	margin-top: -220px;
-	margin-left: 70%;
-    
-}
 
 .bg
 	{
@@ -344,8 +353,12 @@ video
 	.content h1{
 		font-size: 100px;
 	}
-}
 
+.conocenos-title
+{
+margin-left: 20px;
+}
+}
 @media (max-width: 1090px){
 	#menu-icon{
 		display: block;
@@ -437,21 +450,35 @@ video
 		line-height: 1.1;
 		z-index: 998;
 		font-weight: 400;
-		color: rgb(255, 255, 255);
+		margin-right: 10px;
+		color: rgb(229, 73, 0);
 		text-align: center;
 	}
 	.conocenos-description
 	{
-		font-size: 1.7rem;
-		padding-top: 20px;
-		text-align: center;
+		font-size: 1.3rem;
+		padding-top: 30px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
 		line-height: 1.3;
 		z-index: 998;
 		font-weight: 400;
-		color: rgb(255, 255, 255);
+		text-align: justify;
+		color: rgb(0, 0, 0);
 		margin-left: 10%;
-		margin-right: 10%;
+		margin-right: 20px;
+		padding-right:10px ;
 	}
+	.restaurant-img
+	{
+		width: 100%;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		margin-right:0px;
+		float: none;
+	}
+	
+	
+	
 	.disclaimer
 	{
 		font-size: 1.7rem;
